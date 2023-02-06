@@ -5,6 +5,8 @@ const HomePage = () =>{
         <Box>
             <Navbar/>
         </Box>
+        
+    
     )
 }
 
