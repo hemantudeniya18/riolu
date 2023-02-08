@@ -16,7 +16,7 @@ import { createPost } from './controllers/posts.js'
 import { verifyToken } from "./middleware/auth.js";
 mongoose.set('strictQuery', false);
 
-// configurat
+// configuration
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename);
 dotenv.config();

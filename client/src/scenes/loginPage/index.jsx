@@ -12,8 +12,8 @@ const LoginPage = () => {
         p="1rem 6%"
         textAlign="center"
       >
-        <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
+        <Typography fontWeight="bold" fontSize="36px" color="primary">
+          Riolu
         </Typography>
       </Box>
 
@@ -24,8 +24,8 @@ const LoginPage = () => {
         borderRadius="1.5rem"
         backgroundColor={theme.palette.background.alt}
       >
-        <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Socipedia, the Social Media for Sociopaths!
+        <Typography fontWeight="700" variant="h4" color="primary" sx={{ mb: "1.5rem" }}>
+          Welcome to Riolu
         </Typography>
         <Form />
       </Box>
